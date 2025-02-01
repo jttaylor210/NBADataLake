@@ -34,6 +34,36 @@ S3: s3:CreateBucket, s3:PutObject, s3:DeleteBucket, s3:ListBucket
 Glue: glue:CreateDatabase, glue:CreateTable, glue:DeleteDatabase, glue:DeleteTable
 Athena: athena:StartQueryExecution, athena:GetQueryResults
 
+# To Experiment Utilizing Git and VSCode
+
+# Step 1: Install Git
+1. https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+
+# Step 2: Install VSCode
+1. https://code.visualstudio.com/download
+
+# Step 3: Install Python
+1. https://www.python.org/downloads/
+
+# Step 4: Fork and Clone the Repository Locally
+1. Go to the [NBADataLake](https://github.com/alahl1/NBADataLake) repository
+2. Click the "Fork" button in the top right corner of the page.
+3. In your GitHub account, navigate to the forked repository.
+4. Click the "Code" button and copy the HTTPS URL.
+5. Open your terminal or command prompt.
+6. Navigate to the directory where you want to clone the repository.
+7. Run the following command, replacing the URL with the copied HTTPS URL: git clone https://github.com/your-username/NBADataLake.git
+8. Change to the repository directory: cd NBADataLake
+9. Open the setup_nba_data_lake.py file in VSCode: code setup_nba_data_lake.py
+
+# Step 5: Push Changes to GitHub
+1. Make changes to the setup_nba_data_lake.py file.
+2. Save the changes. CMD + S
+3. In the terminal, stage the changes: git add setup_nba_data_lake.py
+4. Commit the changes: git commit -m "Add setup_nba_data_lake.py"
+5. Push the changes to GitHub: git push origin main
+
+
 # START HERE 
 # Step 1: Open CloudShell Console
 
