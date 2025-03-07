@@ -5,6 +5,8 @@ import requests
 from dotenv import load_dotenv
 import os
 
+# This won't show up to anyone besides the developer
+
 # Load environment variables from .env file
 load_dotenv()
 
